@@ -22,3 +22,17 @@ body {
     margin-top: 80px;
     margin-bottom: 80px;
 }
+
+.blurb h2 {
+    color: #fdfdff;
+    font-family: proxima-nova, san serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.3rem;
+ }
+
+.blurb p {
+    color: #fdfdff;
+    font-weight: 100;
+    font-size: 1rem;
+    line-height: 2;
