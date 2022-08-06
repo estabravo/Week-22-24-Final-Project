@@ -24,15 +24,27 @@ body {
 }
 
 .blurb h2 {
-    color: #fdfdff;
+    color: #0f1114;
     font-family: proxima-nova, san serif;
     font-style: normal;
-    font-weight: 500;
-    font-size: 2.3rem;
+    font-weight: 600;
+    font-size: 2.6rem;
+    letter-spacing: .1rem;
+    line-height: 2.8rem ;
+    
  }
 
 .blurb p {
-    color: #fdfdff;
-    font-weight: 100;
-    font-size: 1rem;
-    line-height: 2;
+    color: #0f1114;
+    font-weight: 200;
+    font-size: 1.45rem;
+    line-height: 1.4;
+}
+
+#overlap .surf {
+    background: #9cceb6;
+    width: 530px;
+    position: relative;
+    float: left;
+    margin-left: 60px;
+}
