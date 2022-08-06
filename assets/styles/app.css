@@ -12,3 +12,13 @@ body {
     background-color: #0f1114;
     
 } */
+
+.contentMobile {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contentDesktop {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
