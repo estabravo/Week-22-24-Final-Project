@@ -19,8 +19,8 @@ body {
 }
 
 .contentDesktop {
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 120px;
+    margin-bottom: 120px;
 }
 
 .blurb h2 {
@@ -34,6 +34,30 @@ body {
     
  }
 
+ .heading h1 {
+    color: #fdfdff;
+    font-family: proxima-nova, san serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.7rem;
+    letter-spacing: .3rem;
+    line-height: 2.8rem ;
+ }
+
+ .features{
+    color: #9cceb6;
+    font-family: proxima-nova, san serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.8rem;
+    letter-spacing: .1rem;
+    line-height: 1.8rem ;
+ }
+
+.img-fluid.features {
+    width: 150%;
+}
+
 .blurb p {
     color: #0f1114;
     font-weight: 200;
@@ -46,5 +70,52 @@ body {
     width: 530px;
     position: relative;
     float: left;
-    margin-left: 60px;
+    margin-left: 30px;
+}
+
+#overlap .hotel {
+    background: #f2a230;
+    width: 480px;
+    position: relative;
+    float: left;
+    margin-left: 50px;
+    opacity: 98%;
+}
+
+
+
+.img-fluid.hotel {
+    position: relative;
+    float: left;
+    margin-right: 0px;
+
+}
+
+.aItems{
+    color: #fdfdff;
+    font-family: proxima-nova, san serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 1.05rem;
+    letter-spacing: .1rem;
+    line-height: 4rem ;
+    margin-top: 350px;
+}
+
+.item {
+    padding-left: 37px;
+}
+
+/* .table div{
+    margin-top: 300px;
+} */
+
+.iconCell {
+   padding: none;
+   width: 35px;
+   height: 35px;
+}
+
+.icons {
+    width: 100%;
 }
