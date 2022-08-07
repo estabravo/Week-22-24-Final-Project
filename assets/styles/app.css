@@ -13,6 +13,10 @@ body {
     
 } */
 
+#book { 
+    background: #181F22
+}
+
 .contentMobile {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -45,7 +49,7 @@ body {
     
  }
 
- .heading h1 {
+.heading h1 {
     color: #fdfdff;
     font-family: proxima-nova, san serif;
     font-style: normal;
@@ -55,7 +59,7 @@ body {
     line-height: 2.8rem ;
  }
 
- .features{
+.features{
     color: #9cceb6;
     font-family: proxima-nova, san serif;
     font-style: normal;
@@ -64,6 +68,28 @@ body {
     letter-spacing: .1rem;
     line-height: 1.8rem ;
  }
+
+.yearRound h2{
+    color: #d6d5c9;
+    font-family: proxima-nova, san serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    letter-spacing: .18rem;
+    line-height: 1.8rem ;
+ }
+
+ .yearRound h3{
+    color: #f2a230;
+    font-family: proxima-nova, san serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    letter-spacing: .15rem;
+    line-height: 1.8rem ;
+ }
+
+ 
 
 .img-fluid.features {
     width: 150%;
