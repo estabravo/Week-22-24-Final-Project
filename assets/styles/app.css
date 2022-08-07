@@ -34,6 +34,17 @@ body {
     
  }
 
+ .blurb-w h2 {
+    color: #fdfdff;
+    font-family: proxima-nova, san serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.6rem;
+    letter-spacing: .1rem;
+    line-height: 2.8rem ;
+    
+ }
+
  .heading h1 {
     color: #fdfdff;
     font-family: proxima-nova, san serif;
@@ -58,12 +69,23 @@ body {
     width: 150%;
 }
 
+
+
 .blurb p {
     color: #0f1114;
     font-weight: 200;
     font-size: 1.45rem;
     line-height: 1.4;
 }
+
+.blurb-w p {
+    color: #fdfdff;
+    font-weight: 200;
+    font-size: 1.45rem;
+    line-height: 1.4;
+}
+
+
 
 #overlap .surf {
     background: #9cceb6;
@@ -82,6 +104,17 @@ body {
     opacity: 98%;
 }
 
+#overlap .grounds {
+    background: #e2642e;
+    width: 480px;
+    position: relative;
+    float: right;
+    margin-right: 50px;
+    opacity: 98%;
+    margin-top: 200px;
+}
+
+
 
 
 .img-fluid.hotel {
@@ -89,6 +122,12 @@ body {
     float: left;
     margin-right: 0px;
 
+}
+
+.img-fluid.grounds {
+    position: relative;
+    float: right;
+    margin-left: 0px;
 }
 
 .aItems{
@@ -99,11 +138,12 @@ body {
     font-size: 1.05rem;
     letter-spacing: .1rem;
     line-height: 4rem ;
-    margin-top: 350px;
+
 }
 
 .item {
     padding-left: 37px;
+    
 }
 
 /* .table div{
