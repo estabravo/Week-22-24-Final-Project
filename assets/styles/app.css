@@ -115,8 +115,6 @@ body {
 }
 
 
-
-
 .img-fluid.hotel {
     position: relative;
     float: left;
@@ -130,14 +128,25 @@ body {
     margin-left: 0px;
 }
 
-.aItems{
+#hItems {
     color: #fdfdff;
     font-family: proxima-nova, san serif;
     font-style: normal;
     font-weight: 200;
     font-size: 1.05rem;
     letter-spacing: .1rem;
-    line-height: 4rem ;
+    line-height: 4.2rem;
+    margin-top: 328px;
+}
+
+#gItems  {
+    color: #fdfdff;
+    font-family: proxima-nova, san serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 1.05rem;
+    letter-spacing: .1rem;
+    line-height: 4rem;
 
 }
 
@@ -146,9 +155,6 @@ body {
     
 }
 
-/* .table div{
-    margin-top: 300px;
-} */
 
 .iconCell {
    padding: none;
