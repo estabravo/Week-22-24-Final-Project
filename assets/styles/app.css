@@ -132,7 +132,7 @@ body {
     width: 530px;
     position: relative;
     float: left;
-    margin-left: 30px;
+    margin-left: 50px;
 }
 
 #overlap .hotel {
@@ -167,11 +167,12 @@ body {
 #overlap .review2 {
     background: #2a6f76;
     width: 360px;
-    /* position: relative; */
+    position: relative;
     float: ;
     /* margin-right: 50px; */
     opacity: 98%;
     margin-bottom: -90px;
+    z-index: 2;
 }
 
 #overlap .review3 {
@@ -276,7 +277,7 @@ body {
     font-weight: 300;
     font-size: 1rem;
     letter-spacing: .1rem;
-    line-height: 1rem;
+    line-height: 2rem;
 
 }
 
@@ -331,13 +332,21 @@ background-color: #0f1114;
 .map-container-2{
     overflow:hidden;
     padding-bottom:56.25%;
-    position:relative;
-    height:0;
+    padding-right: ;
+    /* position:relative; */
+    height:;
   }
   .map-container-2 iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
+    /* left:0;
+    top:0; */
+    /* height:100%;
+    width:100%; */
+    /* position:absolute; */
   }
+
+iframe {
+    width: 38.3em; 
+    height: 29em;
+    /* width: 630px; 
+    height: 483px; */
+}
