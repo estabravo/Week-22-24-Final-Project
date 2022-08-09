@@ -6,21 +6,60 @@ body {
 .hero {
     background-image: url(/assets/imgs/hero.jpg);
     background-size: cover;
-    height: 120vh;
+    height: 113vh;
+    width: 100vw;
+    background-position: center;
+}
+
+.intro {
+    background-image: url(/assets/imgs/intro.jpg);
+    background-size: cover;
+    height: 105vh;
+    width: 100vw;
+    background-position: center;
+}
+
+.westportBg {
+    background-image: url(/assets/imgs/westport.jpg);
+    background-size: cover;
+    height: 75vh;
     width: 100vw;
     background-position: center;
 }
 
 .hero h1 {
-   margin-bottom: 25%;
+   margin-bottom: 22%;
    color: #fdfdff;
    font-family: proxima-nova, san serif;
    font-style: normal;
    font-weight: 700;
-   font-size: 2.7rem;
+   font-size: 2.4rem;
    letter-spacing: .3rem;
    line-height: 2.8rem ;
 }
+
+.intro h1 {
+    margin-top: 15%;
+    color: #f2a230;
+    font-family: proxima-nova, san serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3.1rem;
+    letter-spacing: .2rem;
+    line-height: 2.8rem ;
+}
+
+
+.intro p {
+    margin-top: 15%;
+    color: #fdfdff;
+    font-weight: 200;
+    font-size: 1.4rem;
+    letter-spacing: .05rem;
+    line-height: 2.4rem;
+    /* width: 82.5%; */
+}
+
 
 #cf { display: flex;
     align-items: center;
@@ -106,6 +145,10 @@ button:focus {
 .contentEnd {
     margin-top: 120px;
     margin-bottom: 30px;
+}
+.contentStart {
+    margin-bottom: 120px;
+    margin-top: 30px;
 }
 
 
@@ -193,18 +236,18 @@ button:focus {
     line-height: 1.4;
 }
 
-.blurb-w p2 {
-    color: #fdfdff;
-    font-weight: 100;
-    font-size: 1.1rem;
-    line-height: 1.4;
-}
-
 .blurb-r p {
     color: #fdfdff;
     font-weight: 100;
     font-size: 1.2rem;
     line-height: 1.3;
+}
+
+.westport p{
+    font-weight: 300;
+    font-size: 1.3rem;
+    line-height: 1.4;
+
 }
 
 
@@ -215,6 +258,7 @@ button:focus {
     position: relative;
     float: left;
     margin-left: 30px;
+    opacity: 98%;
 }
 
 #overlap .hotel {
@@ -234,6 +278,15 @@ button:focus {
     margin-right: 50px;
     opacity: 98%;
     margin-top: 200px;
+}
+
+#overlap .westport {
+    background: #d6d5c9;
+    width: 480px;
+    position: relative;
+transform: translateX(20%);
+    opacity: 98%;
+
 }
 
 #overlap .review1 {
@@ -330,10 +383,18 @@ button:focus {
     font-size: 1.05rem;
     letter-spacing: .1rem;
     line-height: 4rem;
+}
+#wItems  {
 
+    font-family: proxima-nova, san serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1rem;
+    letter-spacing: -.005rem;
+    line-height: 2rem;
 }
 
-#rItem  {
+#rItems  {
     color: #fdfdff;
     font-family: proxima-nova, san serif;
     font-style: normal;
@@ -341,16 +402,14 @@ button:focus {
     font-size: 1rem;
     letter-spacing: .1rem;
     line-height: 1rem;
-
 }
 
-#fItem .accordion-body {
+#fItems .accordion-body {
     color: #fdfdff;
     font-family: proxima-nova, san serif;
     font-style: normal;
     font-weight: 100;
     font-size: .8rem;
-    letter-spacing: .1rem;
     line-height: 1.1rem;
 }
 
@@ -479,6 +538,25 @@ background-color: #0f1114;
     align-items: center;
 }
 
+#iconBook h3 {
+    display: inline-flex;
+    align-items: center;
+}
+#iconBook img{
+    width: 1.5%;
+}
+
+#iconBook a {
+    color: #f2a23000;
+  }
+
+#iconBook  a:hover {
+    color: #f2a230;
+    text-decoration-thickness: .7px;
+  }
+
+
+
 .map-container-2 div{
     overflow:hidden;
     /* padding-bottom:56.25%; */
@@ -520,6 +598,19 @@ footer{
   a:hover {
     color: #fdfdff;
     text-decoration-thickness: .7px;
+  }
+
+ul li {
+    list-style: none;
+  }
+  
+ul li:before {
+    content: '⬤'; 
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: -3px;
+    font-size: 4px;
+    margin-right: 10px;
   }
 
   html, body {
