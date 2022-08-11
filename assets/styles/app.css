@@ -614,8 +614,11 @@ background-color: #0f1114;
 } */
 
 iframe {
-    width: 38.3em; 
-    height: 29em;
+    width: 95%; 
+   height: 34em;
+ 
+    /* width: 38.3em; 
+    height: 29em; */
  
     /* width: 630px; 
     height: 483px; */
