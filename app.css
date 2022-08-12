@@ -90,7 +90,7 @@ button:focus {
 /* Hero/Large Backgrounds */
 
 .hero {
-    background-image: url(/assets/imgs/hero.jpg);
+    background-image: url(./assets/imgs/hero.jpg);
     background-size: cover;
     height: 113vh;
     width: 100vw;
@@ -98,7 +98,7 @@ button:focus {
 }
 
 .intro {
-    background-image: url(/assets/imgs/intro.jpg);
+    background-image: url(./assets/imgs/intro.jpg);
     background-size: cover;
     height: 105vh;
     width: 100vw;
@@ -106,7 +106,7 @@ button:focus {
 }
 
 .westportBg {
-    background-image: url(/assets/imgs/westport.jpg);
+    background-image: url(./assets/imgs/westport.jpg);
     background-size: cover;
     height: 75vh;
     width: 100vw;
