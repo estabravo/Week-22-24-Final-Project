@@ -282,7 +282,7 @@ button:focus {
     float: left;
     margin-left: 30px;
     opacity: 98%;
-    z-index: 10;
+    z-index: 9;
 }
 
 #overlap .hotel {
@@ -292,7 +292,7 @@ button:focus {
     float: left;
     margin-left: 50px;
     opacity: 98%;
-    z-index: 10;
+    z-index: 9;
 }
 
 #overlap .grounds {
