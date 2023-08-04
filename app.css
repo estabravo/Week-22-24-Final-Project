@@ -703,10 +703,23 @@ footer{
 
 @media (max-width: 991px) {
 
+    .sectionMargins {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
     .hero {
         height: 90vh;
         min-width: 100%;
         margin-bottom: 4vh;
+    }
+
+    .intro p {
+        margin-top: 8%;
+        font-weight: 200;
+        font-size: 1.4rem;
+        letter-spacing: .05rem;
+        line-height: 2.4rem;
     }
 
     #overlap .surf {
@@ -839,6 +852,14 @@ footer{
     .btnHover{
         transform: translateY(-190%) !important;
        }
+    
+    .intro h1 {
+        margin-top: 15%;
+        font-weight: 600;
+        font-size: 2.6rem;
+        letter-spacing: .2rem;
+        line-height: 2.8rem ;
+    }
 }
 
 @media (max-width: 575px) {
