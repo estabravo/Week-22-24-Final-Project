@@ -7,14 +7,14 @@ html {
 body {
     font-family: 'Crimson Pro', serif;
     background: none;
-    overflow-x: hidden;
-    margin-left: calc(100vw - 100%);
+    /* overflow-x: hidden;
+    margin-left: calc(100vw - 100%); */
 }
 
-/* html, body {
-    overflow-x: hidden;
+html, body {
+    overflow-x: visible;
     margin-left: calc(100vw - 100%);
-} */
+}
 
 a {
     color: #0f1114;
@@ -32,7 +32,7 @@ a:hover {
     margin-bottom: 50px;
 }
 
-.contentDesktop {
+.sectionMargins {
     margin-top: 120px;
     margin-bottom: 120px;
 }
@@ -317,7 +317,6 @@ button:focus {
     position: relative;
     transform: translateX(20%);
     opacity: 98%;
-
 }
 
 #book { 
@@ -690,12 +689,7 @@ footer{
 }
 
 @media (max-width: 575px) {
-    /* body {
-        overflow-x: hidden;
-        margin-left: calc(100vw - 100%);
-        max-width: 100%;
-    } */
-    
+
     .hero {
         background-image: url(./assets/imgs/hero.jpg);
         background-size: cover;
@@ -703,4 +697,44 @@ footer{
         min-width: 100%;
         background-position: center;
     }
+
+    #overlap .surf {
+        background: #9cceb6;
+        width: 100%;
+        position: relative;
+        float: left;
+        margin-left: 30px;
+        opacity: 98%;
+        z-index: 9;
+    }
+
+    #overlap .hotel {
+        background: #f2a230;
+        width: 100%;
+        position: relative;
+        float: left;
+        margin-left: 50px;
+        opacity: 98%;
+        z-index: 9;
+    }
+    
+    #overlap .grounds {
+        background: #e2642e;
+        width: 100%;
+        position: relative;
+        float: right;
+        margin-right: 50px;
+        opacity: 98%;
+        margin-top: 200px;
+    }
+    
+    #overlap .westport {
+        background: #d6d5c9;
+        width: 100%;
+        position: relative;
+        transform: translateX(20%);
+        opacity: 98%;
+    }
+
+    
 }
