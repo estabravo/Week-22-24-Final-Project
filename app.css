@@ -99,7 +99,7 @@ button:focus {
     background-image: url(./assets/imgs/hero.jpg);
     background-size: cover;
     height: 113vh;
-    width: 100vw;
+    width: 100%;
     background-position: center;
 }
 
@@ -107,7 +107,7 @@ button:focus {
     background-image: url(./assets/imgs/intro.jpg);
     background-size: cover;
     height: 105vh;
-    width: 100vw;
+    width: 100%;
     background-position: center;
 }
 
@@ -115,7 +115,7 @@ button:focus {
     background-image: url(./assets/imgs/westport.jpg);
     background-size: cover;
     height: 75vh;
-    width: 100vw;
+    width: 100%;
     background-position: center;
 }
 
