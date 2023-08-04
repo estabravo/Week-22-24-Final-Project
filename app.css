@@ -695,6 +695,10 @@ footer{
         /* display: visible; */
         transform: translateY(-190%) !important;
        }
+
+    .hero {
+    height: 113vh;
+    width: 100%;
 }
 
 @media (max-width: 991px) {
