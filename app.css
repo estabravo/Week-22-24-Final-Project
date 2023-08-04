@@ -736,5 +736,62 @@ footer{
         opacity: 98%;
     }
 
+    #overlap .review1 {
+        background: #2a6f76;
+        min-width: 80%;
+        position: static;
+        float: right;
+        /* margin-right: 50px; */
+        opacity: 98%;
+        margin-top: 0;
+        z-index: -1 !important;
     
+    }
+    
+    #overlap .review2 {
+        background: #2a6f76;
+        min-width: 80%;
+        position: static;
+        float: left;
+        /* margin-right: 50px; */
+        opacity: 98%;
+        margin-bottom: 0;
+        z-index: -1 !important;
+    }
+    
+    #overlap .review3 {
+        background: #2a6f76;
+        min-width: 80%;
+        position: static;
+        float: right;
+        margin-right: 0;
+        opacity: 98%;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .reviewImg1{
+        position: static;
+        float: ;
+        margin-left: 0;
+        margin-top: 0;
+        object-fit: cover;
+    }
+    
+    .reviewImg2{
+        position: static;
+        float: none;
+        margin-left: 0;
+        margin-top: 0;
+        z-index: -2;
+        object-fit: cover;
+    }
+    
+    .reviewImg3{
+        position: static;
+        float: ;
+        margin-left:0;
+        margin-bottom: 0;
+        object-fit: cover;
+    }
 }
