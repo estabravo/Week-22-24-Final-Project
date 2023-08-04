@@ -703,7 +703,7 @@ footer{
         width: 100%;
         position: relative;
         float: left;
-        margin-left: 30px;
+        margin-left: 0;
         opacity: 98%;
         z-index: 9;
     }
@@ -713,7 +713,7 @@ footer{
         width: 100%;
         position: relative;
         float: left;
-        margin-left: 50px;
+        margin-left: 0;
         opacity: 98%;
         z-index: 9;
     }
@@ -723,9 +723,9 @@ footer{
         width: 100%;
         position: relative;
         float: right;
-        margin-right: 50px;
+        margin-right: 0;
         opacity: 98%;
-        margin-top: 200px;
+        margin-top: 0;
     }
     
     #overlap .westport {
