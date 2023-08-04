@@ -682,14 +682,6 @@ footer{
 
 @media (max-width: 991px) {
 
-}
-
-@media (max-width: 767px) {
-
-}
-
-@media (max-width: 575px) {
-
     .hero {
         background-image: url(./assets/imgs/hero.jpg);
         background-size: cover;
@@ -803,4 +795,13 @@ footer{
         width: auto;
         overflow-y: overlay;
         }
+        
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 575px) {
+
 }
