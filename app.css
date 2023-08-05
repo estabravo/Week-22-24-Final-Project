@@ -154,8 +154,6 @@ button:focus {
 
 .heading h1 {
     color: #fdfdff;
-    font-family: proxima-nova, san serif;
-    font-style: normal;
     font-weight: 600;
     font-size: 2.7rem;
     letter-spacing: .3rem;
@@ -175,8 +173,6 @@ button:focus {
 .hero h1 {
     margin-bottom: 22%;
     color: #fdfdff;
-    font-family: proxima-nova, san serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 2.4rem;
     letter-spacing: .3rem;
@@ -186,18 +182,21 @@ button:focus {
 .intro h1 {
     margin-top: 15%;
     color: #f2a230;
-    font-family: proxima-nova, san serif;
-    font-style: normal;
     font-weight: 600;
     font-size: 3.1rem;
     letter-spacing: .2rem;
     line-height: 2.8rem ;
 }
 
+h1 {
+    font-family: proxima-nova, san serif;
+    font-style: normal
+}
+
 p {
     font-weight: 200;
     font-size: 1.45rem;
-    line-height: 1.4;
+    line-height: 1.8;
 }
 
 
@@ -721,6 +720,14 @@ footer{
         line-height: 2rem;
     }
     
+    .hero h1 {
+        margin-bottom: 17vh;
+        font-weight: 600;
+        font-size: 1.7rem;
+        letter-spacing: .27rem;
+        line-height: 2.2rem ;
+     }
+
     .intro h1 {
         margin-top: 6%;
         font-weight: 600;
@@ -823,17 +830,6 @@ footer{
         width: auto;
         overflow-y: overlay;
     }
-
-    .hero h1 {
-        margin-bottom: 17vh;
-        color: #fdfdff;
-        font-family: proxima-nova, san serif;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 1.7rem;
-        letter-spacing: .27rem;
-        line-height: 2.2rem ;
-     }
 
     .btn img{
         max-width: 19rem;
