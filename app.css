@@ -136,24 +136,24 @@ p {
     line-height: 1.8;
 }
 
-h1,h2 {
+h1, h2 {
     font-family: proxima-nova, san serif;
-    font-style: normal
-}
-
-.blurb h2 {
-    color: #0f1114;
+    font-style: normal;
     font-weight: 600;
     font-size: 2.6rem;
     letter-spacing: .1rem;
     line-height: 2.8rem ;
+}
+
+.blurb h2 {
+    color: #0f1114;
     
 }
 
  .blurb-w h2 {
     color: #fdfdff;
-    font-weight: 600;
-    font-size: 2.6rem;
+    /* font-weight: 600;
+    font-size: 2.6rem; */
     letter-spacing: .1rem;
     line-height: 2.8rem ;
     
@@ -161,9 +161,9 @@ h1,h2 {
 
 .heading h2 {
     color: #fdfdff;
-    font-weight: 600;
-    font-size: 2.7rem;
-    letter-spacing: .3rem;
+    /* font-weight: 600;
+    font-size: 2.6rem; */
+    letter-spacing: .1rem;
     line-height: 2.8rem ;
 }
 
