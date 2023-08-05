@@ -21,12 +21,12 @@ html, body {
 
 a {
     color: #0f1114;
-  }
+}
 
 a:hover {
     color: #fdfdff;
     text-decoration-thickness: .7px;
-  }
+}
 
 /* Global Padding */
 
@@ -139,7 +139,7 @@ button:focus {
     letter-spacing: .1rem;
     line-height: 2.8rem ;
     
- }
+}
 
  .blurb-w h2 {
     color: #fdfdff;
@@ -150,7 +150,7 @@ button:focus {
     letter-spacing: .1rem;
     line-height: 2.8rem ;
     
- }
+}
 
 .heading h1 {
     color: #fdfdff;
@@ -160,20 +160,14 @@ button:focus {
     font-size: 2.7rem;
     letter-spacing: .3rem;
     line-height: 2.8rem ;
- }
+}
 
- .blurb p {
+.blurb p {
     color: #0f1114;
-    font-weight: 200;
-    font-size: 1.45rem;
-    line-height: 1.4;
 }
 
 .blurb-w p {
     color: #fdfdff;
-    font-weight: 200;
-    font-size: 1.45rem;
-    line-height: 1.4;
 }
 
 /* Section Text */
@@ -189,7 +183,7 @@ button:focus {
     line-height: 2.8rem ;
  }
 
- .intro h1 {
+.intro h1 {
     margin-top: 15%;
     color: #f2a230;
     font-family: proxima-nova, san serif;
@@ -200,13 +194,18 @@ button:focus {
     line-height: 2.8rem ;
 }
 
+p {
+    font-weight: 200;
+    font-size: 1.45rem;
+    line-height: 1.4;
+}
+
+
 .intro p {
     margin-top: 15%;
     color: #fdfdff;
-    font-weight: 200;
-    font-size: 1.4rem;
-    letter-spacing: .05rem;
-    line-height: 2.4rem;
+    /* letter-spacing: .05rem;
+    line-height: 2.4rem; */
     /* width: 82.5%; */
 }
 
@@ -232,8 +231,8 @@ button:focus {
 
  .westport p{
     font-weight: 300;
-    font-size: 1.3rem;
-    line-height: 1.4;
+    /* font-size: 1.3rem;
+    line-height: 1.4; */
 
 }
 
@@ -697,8 +696,9 @@ footer{
        }
 
     .hero {
-    height: 113vh;
-    width: 100%;
+        height: 113vh;
+        width: 100%;
+    }
 }
 
 @media (max-width: 991px) {
@@ -716,10 +716,17 @@ footer{
 
     .intro p {
         margin-top: 8%;
-        font-weight: 200;
-        font-size: 1.4rem;
+        font-size: 1.1rem;
         letter-spacing: .05rem;
-        line-height: 2.4rem;
+        line-height: 2rem;
+    }
+    
+    .intro h1 {
+        margin-top: 6%;
+        font-weight: 600;
+        font-size: 2.6rem;
+        letter-spacing: .2rem;
+        line-height: 3.6rem ;
     }
 
     #overlap .surf {
@@ -852,14 +859,6 @@ footer{
     .btnHover{
         transform: translateY(-190%) !important;
        }
-    
-    .intro h1 {
-        margin-top: 15%;
-        font-weight: 600;
-        font-size: 2.6rem;
-        letter-spacing: .2rem;
-        line-height: 2.8rem ;
-    }
 }
 
 @media (max-width: 575px) {
