@@ -130,10 +130,19 @@ button:focus {
 /* Global Text Tyles */
 
 
+p {
+    font-weight: 200;
+    font-size: 1.45rem;
+    line-height: 1.8;
+}
+
+h1,h2 {
+    font-family: proxima-nova, san serif;
+    font-style: normal
+}
+
 .blurb h2 {
     color: #0f1114;
-    font-family: proxima-nova, san serif;
-    font-style: normal;
     font-weight: 600;
     font-size: 2.6rem;
     letter-spacing: .1rem;
@@ -143,8 +152,6 @@ button:focus {
 
  .blurb-w h2 {
     color: #fdfdff;
-    font-family: proxima-nova, san serif;
-    font-style: normal;
     font-weight: 600;
     font-size: 2.6rem;
     letter-spacing: .1rem;
@@ -152,7 +159,7 @@ button:focus {
     
 }
 
-.heading h1 {
+.heading h2 {
     color: #fdfdff;
     font-weight: 600;
     font-size: 2.7rem;
@@ -188,18 +195,6 @@ button:focus {
     line-height: 2.8rem ;
 }
 
-h1 {
-    font-family: proxima-nova, san serif;
-    font-style: normal
-}
-
-p {
-    font-weight: 200;
-    font-size: 1.45rem;
-    line-height: 1.8;
-}
-
-
 .intro p {
     margin-top: 15%;
     color: #fdfdff;
@@ -218,7 +213,7 @@ p {
     line-height: 1.8rem ;
  }
 
-.yearRound h2{
+.yearRound h3{
     color: #d6d5c9;
     font-family: proxima-nova, san serif;
     font-style: normal;
@@ -235,7 +230,7 @@ p {
 
 }
 
- .yearRound h3{
+ .yearRound h4{
     color: #f2a230;
     font-family: proxima-nova, san serif;
     font-style: normal;
@@ -637,7 +632,7 @@ iframe {
 
 /* Footer */
 
-footer{
+footer {
    height: 10em;
 }
 
@@ -676,7 +671,7 @@ footer{
     transition: .4s all ease;
 }
 
-.reveal.active{
+.reveal.active {
     transform: translateY(0);
     opacity: 1;
 }
@@ -772,7 +767,6 @@ footer{
         opacity: 98%;
         margin-top: 0;
         z-index: -1 !important;
-    
     }
     
     #overlap .review2 {
