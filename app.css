@@ -203,6 +203,10 @@ h1, h2 {
     /* width: 82.5%; */
 }
 
+.surf.inv p {
+    color: #9cceb6;
+}
+
 .features{
     color: #9cceb6;
     font-family: proxima-nova, san serif;
@@ -288,6 +292,16 @@ h1, h2 {
     position: relative;
     float: left;
     margin-left: 30px;
+    opacity: 98%;
+    z-index: 9;
+}
+
+#overlap .surf.inv {
+    background: none;
+    width: 100%;
+    position: relative;
+    float: none;
+    margin-left: 0;
     opacity: 98%;
     z-index: 9;
 }
